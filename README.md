@@ -2,8 +2,6 @@
 
 A MATLAB simulation of the Apollo 11 mission from Earth parking orbit through translunar injection, lunar orbit insertion, and circularization. The project uses a two-dimensional gravitational three-body model to reconstruct the spacecraft trajectory, estimate fuel consumption, and analyze sensitivity to timestep size and initial burn angle.
 
-Developed for Intro to Computer Simulation (MATH-UA 144) at NYU.
-
 ## Physical Model
 
 The Earth, Moon, and spacecraft are modeled as three point masses interacting through Newtonian gravity. Initial lunar position and velocity are taken from JPL Horizons at the time of the Apollo 11 launch. The simulation uses the $x$ and $y$ components of these data, neglecting the smaller out-of-plane component. All calculations use SI units.
