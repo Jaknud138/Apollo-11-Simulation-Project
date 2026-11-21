@@ -140,13 +140,13 @@ Open the repository folder in MATLAB and run one of the following scripts from t
 |---|---|
 | `apollo_simulation1.m` | Standalone trajectory simulation and plots |
 | `apollo_baseline_saver1.m` | Generates and saves the 0.5-second baseline trajectory |
-| `apollo_compare_to_baseline_seconds_consistent_video1.m` | Compares a modified trajectory against the saved baseline |
+| `apollo_compare_to_baseline1.m` | Compares a modified trajectory against the saved baseline |
 
 To run the baseline and then the comparison:
 
 ```matlab
 apollo_baseline_saver1
-apollo_compare_to_baseline_seconds_consistent_video1
+apollo_compare_to_baseline1
 ```
 
 The first script creates `apollo_baseline_TLI_to_LOI.mat`, which the comparison script loads. Change `dt` to investigate timestep sensitivity or `TLIangle` to investigate burn angle sensitivity. Set `makeVideo = false` to disable MP4 recording.
